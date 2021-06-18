@@ -10,7 +10,7 @@ const RPC_URLS: { [chainId: number]: string } = {
 
 export const network = new NetworkConnector({
 	urls: { 3: RPC_URLS[3], 4: RPC_URLS[4] },
-	defaultChainId: 4
+	defaultChainId: 3
 });
 
 export const injected = new InjectedConnector({

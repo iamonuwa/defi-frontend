@@ -3,8 +3,7 @@ import { injected } from 'utils/connectors';
 
 export const NetworkContextName = `${new Date().getTime()}-NETWORK`;
 export const DEFAULT_NETWORK = 3;
-// export const DAI_ADDRESS = '0x31f42841c2db5173425b5223809cf3a38fede360';
-export const DAI_ADDRESS = '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea';
+export const DAI_ADDRESS = '0x31f42841c2db5173425b5223809cf3a38fede360';
 
 export interface WalletInfo {
 	connector?: AbstractConnector;
